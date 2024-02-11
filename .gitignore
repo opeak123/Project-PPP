@@ -1,0 +1,22 @@
+/*
+!.gitignore
+
+# Ignore all files within "Assets" except .cs files
+/Assets/*
+!/Assets/**/*.cs
+
+# Exclude unnecessary directories
+/Library/
+/Temple/
+/Temp/
+/Obj/
+/Build/
+/ProjectSettings/
+
+# Exclude Unity generated meta files
+*.meta
+
+# Exclude solution and project files
+*.sln
+*.csproj
+*.csproj.user
