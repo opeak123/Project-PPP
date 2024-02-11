@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ignore everything
 /*
 
@@ -35,7 +36,6 @@ ExportedObj/
 *.booproj
 *.svd
 *.asset
-*.txt
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -56,3 +56,27 @@ sysinfo.txt
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+=======
+/*
+!.gitignore
+
+# Ignore all files within "Assets" except .cs files
+/Assets/*
+!/Assets/**/*.cs
+
+# Exclude unnecessary directories
+/Library/
+/Temple/
+/Temp/
+/Obj/
+/Build/
+/ProjectSettings/
+
+# Exclude Unity generated meta files
+*.meta
+
+# Exclude solution and project files
+*.sln
+*.csproj
+*.csproj.user
+>>>>>>> 1f1b47172da3c3c446a1790f0baa1a0727ccf490
